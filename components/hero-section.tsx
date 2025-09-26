@@ -4,27 +4,27 @@ import {
   Award,
   BookOpen,
   ChevronDown,
-} from 'lucide-react';
-import { Card, CardContent } from './ui/card';
-import { Badge } from './ui/badge';
+} from "lucide-react";
+import { Card, CardContent } from "./ui/card";
+import { Badge } from "./ui/badge";
 
 export function HeroSection() {
   const stats = [
     {
       icon: <GraduationCap className="w-6 h-6" />,
-      number: '27+',
-      label: 'Years of Excellence',
+      number: "27+",
+      label: "Years of Excellence",
     },
-    { icon: <Users className="w-6 h-6" />, number: '2000+', label: 'Students' },
+    { icon: <Users className="w-6 h-6" />, number: "2000+", label: "Students" },
     {
       icon: <Award className="w-6 h-6" />,
-      number: 'NAAC',
+      number: "NAAC",
       label: "Grade 'B' Accredited",
     },
     {
       icon: <BookOpen className="w-6 h-6" />,
-      number: '15+',
-      label: 'Academic Programs',
+      number: "15+",
+      label: "Academic Programs",
     },
   ];
 
@@ -48,7 +48,7 @@ export function HeroSection() {
       </div>
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-screen flex flex-col justify-center">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12  items-center xl:gap-40">
           {/* Main Content */}
           <div className="text-white space-y-8">
             <div className="space-y-4">
@@ -65,7 +65,7 @@ export function HeroSection() {
                 Empowering students with quality education, fostering
                 innovation, and building tomorrow's leaders at
                 <span className="text-orange-300 font-semibold">
-                  {' '}
+                  {" "}
                   Shree Agrasen Mahavidyalaya
                 </span>
                 .
@@ -96,7 +96,7 @@ export function HeroSection() {
                 className="group bg-white/10 backdrop-blur-lg border-white/20 hover:bg-white/15 transition-all duration-300 transform hover:scale-105 hover:-translate-y-2"
                 style={{
                   animationDelay: `${index * 0.2}s`,
-                  animation: 'fadeInUp 0.8s ease-out forwards',
+                  animation: "fadeInUp 0.8s ease-out forwards",
                 }}
               >
                 <CardContent className="p-6 text-center text-white">
