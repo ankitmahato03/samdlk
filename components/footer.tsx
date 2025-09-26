@@ -21,19 +21,13 @@ export function Footer() {
   ];
 
   return (
-    <footer className="bg-gray-800 text-white">
+    <footer className="bg-gray-800 text-white rounded-bl-2xl rounded-br-2xl ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Campus Video */}
           <div>
             <h3 className="text-lg font-semibold mb-4">Campus Video</h3>
-            <div className="bg-gray-700 h-32 rounded-lg flex items-center justify-center mb-4">
-              <ImageWithFallback
-                src="https://images.unsplash.com/photo-1687709348710-05314eea5476?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxpbmRpYW4lMjBjb2xsZWdlJTIwY2FtcHVzJTIwYnVpbGRpbmd8ZW58MXx8fHwxNzU4Nzc5NjQ2fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-                alt="Campus Video"
-                className="w-full h-full object-cover rounded-lg"
-              />
-            </div>
+            <div className="bg-gray-700 h-32 rounded-lg flex items-center justify-center mb-4"></div>
             <p className="text-sm text-gray-300">
               Watch our campus tour and admission guide
             </p>
@@ -112,7 +106,7 @@ export function Footer() {
             © 2024 Shree Agrasen Mahavidyalaya. All rights reserved.
           </p>
           <p className="text-sm text-gray-400 mt-2 md:mt-0">
-            Design and Developed by InfoTechies
+            Design and Developed by Ankit Mahato
           </p>
         </div>
       </div>
